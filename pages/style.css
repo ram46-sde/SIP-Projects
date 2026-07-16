@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .navbar-logo{
-    height: 50px;
-    width:50px;
+    height: 70px;
+    width:70px;
     border-radius:30px;
 }
 .navbar-heading{
@@ -10,6 +10,13 @@
     font-family:"Caveat";
     font-size:25px;
     font-weight:bold;
+}
+.nav-items{
+    color: black;
+    font-weight:bold;
+    font-family:"Bree Serif";
+    font-size:20px;
+    margin-right:5px;
 }
 .login-button{
     background-color:#ffffff;
@@ -26,4 +33,56 @@
     border-width:2px;
     border-style:solid;
     border-color:#E8EDF2;
+}
+.hero-section{
+    background-image:url("https://i.pinimg.com/1200x/96/ee/55/96ee551279c55efe9f0ff247d369ec97.jpg");
+    height:60vh;
+    background-size:cover;
+}
+.hero-caption1{
+    color: white;
+    font-size:55px;
+    font-weight:bold;
+    padding: 20px;
+    font-family:"Bree Serif";
+}
+.hero-span-element1{
+    color: #FF8F00;
+    font-size:55px;
+    font-weight:bold;
+    padding: 20px;
+    font-family:"Bree Serif";
+}
+.hero-span-element2{
+     color: green;
+    font-size:55px;
+    font-weight:bold;
+    padding: 20px;
+    font-family:"Bree Serif";
+}
+.hero-para{
+    color: rgb(242, 163, 59);
+    font-size:25px;
+    font-weight:bold;
+    padding: 20px;
+    font-family:"caveat";
+}
+.order-button{
+    background-color:#FF8F00;
+    color:white;
+    font-family:"Bree Serif";
+    border-width:2px;
+    border-style:solid;
+    border-color:#E8EDF2;
+    font-size:25px;
+    margin-right:10px;
+}
+.explore-button{
+    background-color:#ffffff;
+    color:black;
+    font-family:"Bree Serif";
+    border-width:2px;
+    border-style:solid;
+    border-color:#E8EDF2;
+    font-size:25px;
 }
