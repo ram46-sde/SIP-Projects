@@ -36,7 +36,7 @@
 }
 .hero-section{
     background-image:url("https://i.pinimg.com/1200x/96/ee/55/96ee551279c55efe9f0ff247d369ec97.jpg");
-    height:60vh;
+    height:80vh;
     background-size:cover;
 }
 .hero-caption1{
@@ -86,3 +86,35 @@
     border-color:#E8EDF2;
     font-size:25px;
 }
+.nav-items:hover {
+    background-color: orange;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+}
+.search-container{
+    background-color:transparent;
+    margin-top:20px;
+    padding:5px;
+}
+.search-button{
+    background-color: #FF8F00;
+    color: white;
+    font-size:20px;
+    font-family: "Bree Serif";
+    border-style: solid;
+    padding: 10px;
+    border-color: #E8EDF2;
+    margin-top:70px
+}
+#site-search{
+    color:black;
+    font-weight:200;
+    font-family:"Roboto";
+    width:60%;
+    font-size:20px;
+    text-align:left;
+    padding:10px;
+    margin-top:70px;
+}
+

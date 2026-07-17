@@ -32,21 +32,30 @@
             </div>
         </div>
     </nav>
-    <div class="hero-section">
-        <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6">
-                <div>
-                    <h1 class="hero-caption1">Delicious <span class="hero-span-element1">Food</span></h1>
-                    <h1 class="hero-caption1">Delivered <span class="hero-span-element2">Fast</span></h1>
-                    <p class="hero-para">Fresh meals from your favourite restaurants, delivered to your door steps</p>
-                    <button class="btn order-button"> Order Now </button>
-                    <button class="btn explore-button"> Explore Menu </button>
-                    
+            <div class="col-12 col-lg-12">
+                <div class="hero-section d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="hero-caption1">Delicious <span class="hero-span-element1">Food</span></h1>
+                        <h1 class="hero-caption1">Delivered <span class="hero-span-element2">Fast</span></h1>
+                        <p class="hero-para">Fresh meals from your favourite restaurants, delivered to your door steps</p>
+                        <button class="btn order-button ml-3"> Order Now </button>
+                        <button class="btn explore-button"> Explore Menu </button>
+                    </div>
+                    <div class="search-container">
+                        <search>
+                            <form action="/search-results-page" method="get">
+                            <label for="site-search"></label>
+                            <input type="search" id="site-search" class="btn btn-light" name="q" placeholder="Search restaurants, dishes, cuisines..." required>
+                            <button type="submit" class="btn search-button">Search</button>
+                            </form>
+                        </search>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </body>
 
